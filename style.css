@@ -3,7 +3,7 @@ body {
 }
 
 .button {
-    margin-left: 250px;
+    margin-left: 200px;
     border-radius: 20px;
 
 }
@@ -11,6 +11,7 @@ body {
 .img-hero {
     padding-top: 30px;
 }
+
 /* 
 .hero {
     padding: 30px 0px;
@@ -29,7 +30,7 @@ body {
 }
 
 .hero-sec {
-    background-color:#f2f2f2 ;
+    background-color: #f2f2f2;
 }
 
 
@@ -104,7 +105,7 @@ body {
 
 .about {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .sub-title {
@@ -112,11 +113,18 @@ body {
     font-size: 20px;
 }
 
+.Learn {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
 .LERN-MORE {
-    font-family: ;
+    /* font-family: ; */
     font-size: 30px;
     font-weight: 300;
-    margin-top: 20px;
+
 }
 
 .about-us {
@@ -124,7 +132,8 @@ body {
     font-size: 30px;
     font-weight: 300;
     color: red;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+
 }
 
 .section-about {
@@ -162,7 +171,7 @@ body {
     border: 10px;
 }
 
-.nom-book-a-table {
+.nom {
     font-weight: bold;
     color: red;
     font-size: 30px;
@@ -174,39 +183,6 @@ body {
     width: 300px;
 }
 
-.works-sec {
-    background-color: #1a2a6b;
-    padding: 80px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.works-sec h2 {
-    color: #fff;
-    font-size: 36px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-weight: 600;
-}
-
-.works-cards-contain {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    width: 100%;
-}
-
-
-
-
-
-
-
 .box-a {
     background-color: red;
     padding: 15px;
@@ -214,6 +190,7 @@ body {
     height: 450px;
     max-width: 350px;
     border-radius: 5px;
+    /* padding-top: 15px; */
 
 }
 
@@ -229,9 +206,9 @@ h1 {
 }
 
 .boxs {
-   
+
     display: flex;
-    
+
     box-sizing: border-box;
     background-color: #f2f2f2;
     /* margin-right: 15px; */
@@ -290,6 +267,7 @@ h1 {
     margin-bottom: 10px;
 }
 
+
 .stat-item .stat-description {
     font-size: 16px;
     font-weight: 600;
@@ -297,8 +275,42 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
+
 .sub-title-stat {
     color: #ffffff;
     font-size: 20px;
-    font-weight:700;
+    font-weight: 700;
+}
+
+.menu-types {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+/* .sub-title-menu{
+   
+    color: gray;
+    font-size: 20px;
+;
+
+} */
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 20px;
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
 }
