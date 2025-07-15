@@ -34,7 +34,7 @@ body {
 }
 
 
-.img {
+.ENJOY-img {
     padding-top: 20px;
     width: 400px;
     height: 400px;
@@ -175,6 +175,7 @@ body {
     font-weight: bold;
     color: red;
     font-size: 30px;
+    padding: 15px;
 
 }
 
@@ -301,16 +302,143 @@ h1 {
 .dishes {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
+    text-align: center;
     gap: 20px;
 
     max-width: 1000px;
     margin: auto;
+    /* background-color: #ffffff8d; */
+
 }
 
-.img {
+.dish-img {
     width: 200px;
     height: 200px;
-    border-radius: 20px;
 
+
+
+}
+
+.dish-item {
+
+    padding: 20px;
+
+
+}
+
+.WHAT-ARE-THEY-SYING-ABOUT-US {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.par-with-line {
+    display: flex;
+    justify-content: start;
+    max-width: 650px;
+}
+
+.line {
+    width: 5px;
+    height: 100px;
+    background-color: red;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 50px;
+
+}
+
+.par {
+    padding-top: 50px;
+}
+
+.john-larson-par {
+    background-color: #f2f2f2;
+}
+
+.par-with-line-with-pict {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.slida {
+    background-image: url(img/events/event-1.png);
+    width: 500px;
+    height: 600px;
+
+   
+}
+
+.slidb {
+    background-image: url(img/events/event-2.png);
+    width: 500px;
+    height: 600px;
+}
+
+.slidc {
+    background-image: url(img/events/event-3.png);
+    width: 500px;
+    height: 600px;
+     background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+.slidd {
+    background-image: url(img/events/event-4.png);
+    width: 500px;
+    height: 600px;
+     background-size:cover ;
+    background-repeat: no-repeat;
+}
+.slids{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1 ;
+    padding-bottom: 30px;
+}
+.slid{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom:40px ;
+    
+    
+}
+.CHEFS-TEXT{
+    padding: 40px;
+}
+.img-chef{
+    width: 350px;
+    height: 400px;
+}
+.box-chef{
+    width: 400px;
+}
+.chef-text{
+    width: 350px;
+    text-align: center;
+}
+.info{
+    width: 150px;
+    height: 50px;
+    /* padding: 20px */
+}
+
+.the-form{
+    display: flex;
+    background-color: #f2f2f2;
+    
+}
+.form-pict{
+background-image:url(img/reservation.jpg) ;
+min-height: 70vh;
+}
+.is-info{
+    margin: 0px;
+    padding: 30px;
+    
 }
