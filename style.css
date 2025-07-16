@@ -442,3 +442,7 @@ min-height: 70vh;
     padding: 30px;
     
 }
+.swiper {
+  width: 600px;
+  height: 300px;
+}
