@@ -39,12 +39,29 @@ body {
     width: 400px;
     height: 400px;
     padding-right: 70px;
+      animation: move 5s infinite alternate;
 
 }
+     @keyframes move {
+            0% {
+                transform: translateY(0);
+            }
+            25%
+            {
+ transform: translateY(20px);
+            }
+            50%{
+ transform: translateY(0);
+            }
+            75%{
+ transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
 
-.hero-img {
-    padding-right: px;
-}
+
 
 .hero {
     background-color: #f2f2f2;
@@ -396,7 +413,7 @@ h1 {
 }
 .slids{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     flex-grow:1 ;
     padding-bottom: 30px;
 }
@@ -441,8 +458,4 @@ min-height: 70vh;
     margin: 0px;
     padding: 30px;
     
-}
-.swiper {
-  width: 600px;
-  height: 300px;
 }
